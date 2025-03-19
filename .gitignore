@@ -1,0 +1,65 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+build/
+dist/
+*.out
+
+# Logs
+logs
+*.log
+*.log.*
+log/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test files
+coverage/
+jest/
+*.test.js
+*.spec.js
+cypress/
+cypress/videos/
+cypress/screenshots/
+
+# Cache files
+.cache/
+.next/
+out/
+tmp/
+temp/
+
+# Ignore public assets (optional)
+public/static/
+public/*.map
+
+# Ignore compiled files
+*.tsbuildinfo
+*.eslintcache
+
+# Miscellaneous
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
